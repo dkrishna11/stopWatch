@@ -1,0 +1,48 @@
+body{
+    background-color: #c0d410;;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+#container{
+    color: rgba(98, 15, 207, 0.795);
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+    color: mediumblue;
+}
+
+#button-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#start{
+    background-color: #1abc9c;
+}
+
+#stop{
+    background-color: #3498db;
+}
+
+#reset{
+    background-color: #ee1810;
+}
